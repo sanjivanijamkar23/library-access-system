@@ -1,14 +1,14 @@
 function access(user) {
 
     if (user.role === "member") {
-        return "Member Library Access";
+        return "Library Entry Allowed";
     }
 
     if (user.role === "librarian") {
         return "Full Library Control";
     }
 
-    return "Access Denied";
+    return "Access Restricted";
 
 }
 
