@@ -1,8 +1,11 @@
 function access(user) {
-    if (user.role === "member") {
-        return "Library Access Granted";
+
+    if (user.type === "member") {
+        return "Library Entry Allowed";
     }
-    return "Access Denied";
+
+    return "Access Restricted";
+
 }
 
 module.exports = access;
