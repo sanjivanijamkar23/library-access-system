@@ -1,7 +1,7 @@
 function access(user) {
 
     if (user.role === "member") {
-        return "Member Library Access";
+        return "Member Access Portal";
     }
 
     if (user.role === "librarian") {
